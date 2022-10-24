@@ -1,10 +1,19 @@
 /* styles.css */
 
-div {
-    color: white;
-    background-color: black;
+*{
+    font: roboto;
 }
 
-p {
-    color: red;
+.hero{
+    background-color: #1F2937;
+}
+
+.hero.main{
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.hero.header{
+    color: #F9FAF8;
+    font-size: 24px;
 }
