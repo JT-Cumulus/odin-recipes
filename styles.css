@@ -3,6 +3,7 @@
 .hero{
     background-color: #1F2937;
     padding: 20px 10px;
+    color: #F9FAF8;
 }
 
 .hero .main{
@@ -32,4 +33,16 @@
     color: #F9FAF8;
     padding: 14px 25px;
     text-align: center;
+}
+
+.image-section{
+    padding: 20px 10px;
+}
+
+.quote{
+    padding: 20px 10px;
+    background-color: #E5E7EB;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
 }
