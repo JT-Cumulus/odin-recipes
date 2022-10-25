@@ -1,5 +1,9 @@
 /* styles.css */
 
+body {
+    font-family: "Roboto";
+}
+
 .hero{
     background-color: #1F2937;
     padding: 20px 10px;
