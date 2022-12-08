@@ -15,14 +15,11 @@
                 <a href="./recipes/pasta salad.html">Pasta Salad</a>
             </div>
             
-            
             <img src="./images/pot.jpg" alt="image of cooking pot"> 
             <div class="main">This website is awesome</div>
             <div class="secondary">This website has some subtext that goes here under the main title. 
                 It's a smaller font and the color is lower contrast</div>
             <button>Sign up</button>
-
-            
         </div>
         
         <div class="image-section">
@@ -38,9 +35,24 @@
 
         </div>
         
+       <input id="textBox" type="'text"></input>
+       <div id="output"></div>
+       <script src="./myscript.js"></script>
+
         <div class="quote">This is an inspiring quote.</div>
 
         <div class="hero">footer with sign up button</div>
+
+        <script>
+            function capitalise(word){
+                return word[0].toUpperCase() + word.substring(1);
+            }
+            function lastLetter(word){
+                return word.slice(-1);
+            }
+            console.log(capitalise('paris'));
+            console.log(lastLetter('Train'))
+        </script>
 
 
     </body>
