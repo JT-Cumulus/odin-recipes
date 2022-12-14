@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="javascript">
+        function genDivs(v){
+            let e = document.body;
+            for(let i = 0; i < v; i++){
+                let row = document.createElement("div");
+                row.className = "row";
+                for(let x = 1; x <= v; x++){
+                    let cell = document.createElement('div');
+                    cell.className = 'gridsquare';
+                    cell.innerText = (i * v) + x;
+                    row.appendChild(cell);
+                }
+                e.appendChild(row);
+            }
+            document.getElementById('code').innerText = e.innerHTML;
+        }
+    </script>
+    
+</body>
+</html>
